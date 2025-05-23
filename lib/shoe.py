@@ -1,4 +1,5 @@
-#!/usr/bin/env python3
-
 class Shoe:
-    pass
+    def __init__(self, brand, model, size):
+        self.brand = brand
+        self.model = model
+        self.size = size
